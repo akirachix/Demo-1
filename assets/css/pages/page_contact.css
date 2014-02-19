@@ -1,0 +1,37 @@
+/*Contact Pages
+------------------------------------*/
+.map {
+	width:90%; 
+	height:350px;
+	border-top:solid 1px #eee;
+	border-bottom:solid 1px #eee;
+	margin:auto;
+}
+
+/* important! bootstrap sets max-width on img to 100% which conflicts with google map canvas*/
+
+.contactimg{
+	float:left;
+	width:100%;
+	overflow:hidden;
+	height:350px;
+	margin:auto;
+	
+}
+
+.map img {
+	float:right;
+	width:50%;
+	
+}
+
+.map-box {
+	height: 250px;
+}
+
+.map-box-space {
+	margin-top: 15px;
+}
+.map-box-space1 {
+	margin-top: 7px;
+}
